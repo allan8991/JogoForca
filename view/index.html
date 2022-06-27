@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../public/forca.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <script src="../controller/forca.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Forca</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="inserirPalavras.html"> Cadastrar |</a>
+                </li>
+                <li>
+                    <a href="deletandoPalavras.html"> Deletar </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article id="forca">
+            <div id="dicas">Dica: <span> </span></div>
+            <div style="color:green;align-self: center;" id="perdaVida">Perda de Vida:
+                <img src='../public/imagens/coracao_cheio.png'>
+                <img src='../public/imagens/coracao_cheio.png'>
+                <img src='../public/imagens/coracao_cheio.png'>
+                <img src='../public/imagens/coracao_cheio.png'>
+                <img src='../public/imagens/coracao_cheio.png'>
+                <img src='../public/imagens/coracao_cheio.png'>
+            </div>
+            <h4 style="color:green;align-self: center;">Letras que não tem na Palavra: <div id="letras"></div>
+            </h4>
+
+            <div id="lista">
+
+            </div>
+            <input type="submit" value="Nova Palavra" class="reiniciarJogo">
+
+        </article>
+
+    </section>
+    <footer>
+        <h4>jogo da forca</h4>
+        <h5>versao 2022</h5>
+    </footer>
+
+</body>
+
+</html>

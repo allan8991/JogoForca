@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.reiniciarJogo{
+    margin-left: 15px;
+    width: 110px;
+    align-self: center;
+    padding: 5px;
+    background-color: green;
+    border-color: green;
+    font-size: 15px;
+    border-radius: 4px;
+    color:white;
+}
+header{
+    position:relative;
+    top: 0;
+    min-width: 100vw;
+    min-height: 30vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+  
+  
+}
+header h1{
+    margin-left: 10px;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 15px;
+    min-width: 65vw;
+ 
+    
+
+}
+header nav ul a{
+    color: white;
+    text-decoration: none;
+    padding:1px;
+
+}
+a:hover{
+    background-color: blue;
+    font-size: 18px;
+    padding: 3px;
+}
+header nav{
+    
+    margin-right: 2px;
+   
+
+}
+section{
+    min-width: 100vw;
+    min-height: 58vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;  
+    align-items: center;
+    
+
+
+}
+footer{
+    position:absolute;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 12vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content:center;  
+
+}
+footer h4{
+    margin-bottom: 5px;
+}
+#dicas{
+    color:white;
+    background-color: red;
+    min-width: 45%;
+    align-self: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+#lista{
+    display: flex;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+   
+    
+   
+}
+#lista input{
+    color: blue;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 3px solid navy;
+    background-color: whitesmoke;
+    outline: none;
+    
+}
+#palavra,#dica{
+    border: none;
+    border-bottom: 4px solid gray;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 19px;
+    outline: none;
+    
+
+}
+
+#forca{  
+    min-height: 58vh;
+    min-width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#letras{
+    color:blue;
+    text-transform: uppercase;
+    display: inline;
+}
+#NovasPalavras{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+#tituloInserirPalavra {
+    
+    color: white;
+    text-align: center;
+ }
+ #messagemErro{
+     align-self: center;
+     background-color: red;
+     font-size: 15px;
+     padding: 15px;
+     display: none;
+     border-radius: 5px;
+}
+#formulario{
+    min-height: 70vh;
+    min-width: 95vw;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid 10px gray;
+    justify-content: space-evenly;
+   
+
+}
+@media (min-width:450px){
+    #formulario{
+    min-width: 50vw;
+    min-height: 70vh;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid 10px gray;
+    justify-content: space-evenly;
+    }
+
+}
+#botoes{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#botoes input{
+    margin-left: 15px;
+    padding: 10px 20px;
+
+}
+#voltar,#enviar,#deletar{
+    background-color: red;
+    border-color: red;
+    font-size: 15px;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#enviar,#deletar{
+    background-color: green;
+    border-color:green ;
+
+}
+
